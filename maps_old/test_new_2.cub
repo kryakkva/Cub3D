@@ -1,0 +1,35 @@
+
+
+
+
+
+            NO ./maps_old/textures/64/bluestone.xpm 
+SO ./maps_old/textures/64/greystone.xpm
+WE ./maps_old/textures/64/purplestone.xpm
+EA ./maps_old/textures/64/redbrick.xpm
+SP2 ./maps_old/textures/new/yoda512.xpm
+SP3 ./maps_old/textures/64/sprite_1.xpm
+SP4 ./maps_old/textures/new/yoda.xpm
+       FL5 ./maps_old/textures/new/deer512.xpm
+DR6 ./maps_old/textures/64/wood.xpm
+EX7 ./maps_old/textures/new/startplatinum.xpm          
+
+
+
+
+
+F 255,0,55
+C 0,128,8
+
+
+
+ 111111111111511111111111111111111111111111
+10020000011000000000000000000100000000000007
+1000000000000000W000000000000500000000000001
+10030000000000000000000000000100000000000001
+10000000000200000000000000000100000000000001
+10000000000000000000000000000600000000000001
+10020000011100000000000000000500000000000001
+ 111111111111511111111111111111111111111111
+
+

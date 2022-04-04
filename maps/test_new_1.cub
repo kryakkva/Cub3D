@@ -1,0 +1,33 @@
+
+
+
+
+
+NO ./maps/textures/64/North.xpm 
+EA ./maps/textures/64/East.xpm
+WE ./maps/textures/64/West.xpm
+SO ./maps/textures/64/South.xpm
+SP2 ./maps/textures/new/yoda.xpm
+SP3 ./maps/textures/new/yoda.xpm
+SP4 ./maps/textures/new/yoda.xpm
+FL5 ./maps/textures/new/deer512.xpm
+DR6 ./maps/textures/new/door.xpm
+EX7 ./maps/textures/new/exit.xpm      
+
+
+
+
+
+F 50,75,80
+C 140,170,180
+
+
+ 11111111111151111111111
+100000000000000000000000511111
+1000000000000000000000001000001
+10002000000000000E0000006000001
+1000000000000000000000001000001
+100000300000000000000000700071
+ 11111111111151111111111111111
+
+
