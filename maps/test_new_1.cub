@@ -8,8 +8,8 @@ EA ./maps/textures/64/East.xpm
 WE ./maps/textures/64/West.xpm
 SO ./maps/textures/64/South.xpm
 SP2 ./maps/textures/new/yoda.xpm
-SP3 ./maps/textures/new/yoda.xpm
-SP4 ./maps/textures/new/yoda.xpm
+SP3 ./maps/textures/new/dv.xpm
+SP4 ./maps/textures/new/crystal.xpm
 FL5 ./maps/textures/new/deer512.xpm
 DR6 ./maps/textures/new/door.xpm
 EX7 ./maps/textures/new/exit.xpm      

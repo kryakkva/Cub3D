@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   set_color_add_b.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: apaege <apaege@student.42.fr>              +#+  +:+       +#+        */
+/*   By: sekharjo <sekharjo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 18:27:25 by apaege            #+#    #+#             */
-/*   Updated: 2022/04/03 19:28:14 by apaege           ###   ########.fr       */
+/*   Updated: 2022/04/04 14:43:02 by sekharjo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@ void	ft_set_color_coeff(t_scene *scene, t_rgb *color)
 void	ft_set_color_new(t_scene *scene, t_rgb *color, int k)
 {
 	ft_set_color_coeff(scene, color);
-	scene->color_new.r = color->r - k * scene->color_k.r;
-	scene->color_new.g = color->g - k * scene->color_k.g;
-	scene->color_new.b = color->b - k * scene->color_k.b;
+	scene->color_new.r = (int)(color->r - k * scene->color_k.r);
+	scene->color_new.g = (int)(color->g - k * scene->color_k.g);
+	scene->color_new.b = (int)(color->b - k * scene->color_k.b);
 }
 
 void	ft_draw_v_line_dark(char *data, t_draw draw, t_scene *s)

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sprite_b.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: apaege <apaege@student.42.fr>              +#+  +:+       +#+        */
+/*   By: sekharjo <sekharjo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 21:01:25 by apaege            #+#    #+#             */
-/*   Updated: 2022/04/03 19:45:54 by apaege           ###   ########.fr       */
+/*   Updated: 2022/04/04 16:55:56 by sekharjo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,10 @@ int	ft_create_sprite(t_scene *s)
 	sp.i = 0;
 	while (sp.i < s->dda->spr_ind)
 	{
+		s->dark_k = sqrtf((s->pos.x - s->dda->sprite_pos[sp.i].h) * (s->pos.x - \
+		s->dda->sprite_pos[sp.i].h) + (s->pos.y - \
+		s->dda->sprite_pos[sp.i].w) * (s->pos.y - \
+		s->dda->sprite_pos[sp.i].w)) * 1.9;
 		ft_sprite_1(s, &sp, sprite_order);
 		ft_sprite_2(s, &sp);
 		sp.i++;

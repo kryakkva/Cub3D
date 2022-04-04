@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d_b.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: apaege <apaege@student.42.fr>              +#+  +:+       +#+        */
+/*   By: sekharjo <sekharjo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/20 18:25:44 by apaege            #+#    #+#             */
-/*   Updated: 2022/04/03 22:03:11 by apaege           ###   ########.fr       */
+/*   Updated: 2022/04/04 16:49:15 by sekharjo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,6 +128,13 @@ typedef struct s_rgb
 	int			b;
 }				t_rgb;
 
+typedef struct s_rgb_d
+{
+	double		r;
+	double		g;
+	double		b;
+}				t_rgb_d;
+
 typedef struct s_draw
 {
 	t_int		start;
@@ -223,7 +230,7 @@ typedef struct s_scene
 	t_dda		*dda;
 	int			itter;
 	int			rev;
-	t_rgb		color_k;
+	t_rgb_d		color_k;
 	t_rgb		color_new;
 	int			dark_k;
 	char		*menu;
