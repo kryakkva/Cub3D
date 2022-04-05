@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   set_color_b.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: apaege <apaege@student.42.fr>              +#+  +:+       +#+        */
+/*   By: sekharjo <sekharjo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 19:14:27 by apaege            #+#    #+#             */
-/*   Updated: 2022/03/30 07:45:55 by apaege           ###   ########.fr       */
+/*   Updated: 2022/04/05 12:39:10 by sekharjo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	ft_set_color(t_scene *scene, char **data, int code)
 	else
 	{
 		scene->ceil = ft_str_to_rgb(data[1]);
-		if (!scene->floor)
+		if (!scene->ceil)
 			ft_print_error("Color must have 3 values in range 0-255",
 				PARSE_ERROR);
 	}

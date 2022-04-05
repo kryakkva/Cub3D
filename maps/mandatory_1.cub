@@ -1,18 +1,12 @@
 
 
-NO ./maps/textures/64/bluestone.xpm 
-SO ./maps/textures/64/greystone.xpm
-WE ./maps/textures/64/purplestone.xpm
-EA ./maps/textures/64/redbrick.xpm
-S1 ./maps/textures/64/sprite.xpm
-S2 ./maps/textures/64/sprite_1.xpm
-S3 ./maps/textures/64/wood.xpm
-FL ./maps/textures/new/aer.xpm
-DR ./maps/textures/64/redbrick.xpm
-EX ./maps/textures/64/redbrick.xpm
+NO ./maps/textures/64/North.xpm 
+SO ./maps/textures/64/South.xpm
+WE ./maps/textures/64/West.xpm
+EA ./maps/textures/64/East.xpm
 
-F 255,0,55
-C 0,128,8
+C 140,170,180
+F 50,75,80
 
 1111111111111111111111111111111111111111111
 1000000000000000000000000000000000100000101
